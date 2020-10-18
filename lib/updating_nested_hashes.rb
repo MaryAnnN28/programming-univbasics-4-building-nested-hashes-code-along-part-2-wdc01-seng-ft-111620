@@ -30,7 +30,6 @@ def update_status
   def update_status(epic_tragedy)
     puts epic_tragedy[:montague][:hero][:status]
     puts epic_tragedy[:capulet][:heroine][:status]
-    binding.pry
   end
 
 end

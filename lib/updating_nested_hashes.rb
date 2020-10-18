@@ -28,6 +28,7 @@ def update_status
   epic_tragedy[:capulet][:heroine][:status] = "dead".object_id
   # After your code, the following code will return the altered hash. This method must only return the modified epic_tragedy hash
   def update_status(epic_tragedy)
+    binding.pry
     puts epic_tragedy[:montague][:hero][:status]
     puts epic_tragedy[:capulet][:heroine][:status]
 binding.pry
